@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Event</title>
+    <style>
+    #myHeader {
+        background-color: #f1f1f1;
+        color: black;
+        padding: 40px;
+        text-align: center;
+
+    }
+
+nav {
+  float: top;
+  width: 100%;
+  height: 50px; 
+  background: darkturquoise;
+  padding: 20px;
+}
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: 0;
+  background-color: #333;
+}
+nav li {
+    float: left;
+}
+nav li a {
+    display: block;
+    color: floralwhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 300px; 
+}
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+    div {
+   /* Background pattern from Toptal Subtle Patterns */
+   background-image:  url("canstockphoto51009206.jpg");
+   background-repeat: no-repeat;
+   background-size: 40%;
+   background-position-x: center;
+   height: 350px;
+   padding-top: 50px;
+   margin-top: 25px;
+
+
+}
+
+img{
+  width: 90%;
+  height: 90%;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 0%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+    /* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+    </style>
+</head>
+<body>
+    <h1 id="myHeader">Debate Competition</h1>
+    
+   
+
+    <section>
+  <nav>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+  <div></div>
+  
+  <article>
+    <h1>Saint College</h1>
+    <p>Saint College is organising a debate competition on 2nd of August, 2021. The topic for debate will be given on the spot and half an hour would be given to prepare for your topic.There will be three rounds in the competition. </p>
+    <p>It will be virtual debate compettion. Participants are required to join 15 minutes prior the competition.Please submit your name to your respective mentor for joining the competition. </p>
+    <p>The time and link for joining the competition will be given one day prior the competition.The prizes for the winners will be annouced on the spot.</p>
+    <p>See you in the competition !!!</p>
+  </article>
+</section>
+<div class="row">
+  <div class="column">
+<img src="https://www.ashokaschools.org/isc-wadala/gallery/gal-01561302816.jpg" alt="debate">
+  </div>
+  <div class="column">
+<img src="https://www.yarmschool.org/wp-content/uploads/2021/01/Copy-of-Untitled-2-1110x450.png" alt="students">
+  </div>
+</div>
+
+    
+    <footer>
+        <p>For any queries, you can contact us:</p>
+       <p>email:abs@gmail.com</p>
+       <p>mobile:988888</p>
+      </footer>
+      
+      
+        
+        
+   
+</body>
+
+</html>
